@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * 
- * Retiurne: Always 0 (Success)
+ *
+ * Returne: Always 0 (Success)
  */
 int main(void)
 {
