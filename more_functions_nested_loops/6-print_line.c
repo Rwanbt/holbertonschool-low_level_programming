@@ -2,6 +2,8 @@
 
 /**
  * print_line - Prints line
+ * @n: The number of print
+ * @c: The number of lines
  *
  * Return: Always 0
  */
