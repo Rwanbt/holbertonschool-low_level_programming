@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * print_diagonal - Prints line
- * @n: The number of print
+ * print_square - Prints square of #
+ * @size: The number of print
  */
-void print_diagonal(int n)
+void print_square(int size)
 {
-	int line, space;
+	int width, height;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		for (line = 0; line < n; line++)
+		for (height = 0; height < size; height++)
 		{
-			for (space = 0; space < line; space++)
+			for (width = 0; width < size; width++)
 			{
-				_putchar(' ');
+				_putchar('#');
 			}
-			_putchar('\\');
 			_putchar('\n');
 		}
 	}
