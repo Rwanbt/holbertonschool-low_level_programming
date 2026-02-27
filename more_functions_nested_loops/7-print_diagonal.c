@@ -3,8 +3,6 @@
 /**
  * print_diagonal - Prints line
  * @n: The number of print
- *
- * Return: Always 0
  */
 void print_diagonal(int n)
 {
@@ -16,10 +14,10 @@ void print_diagonal(int n)
 		{
 			for (space = 0; space < n; space++)
 			{
-			_putchar(' ')
+				_putchar(' ');
 			}
-			_putchar('\\')
-			_putchar('\n')
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 	else
