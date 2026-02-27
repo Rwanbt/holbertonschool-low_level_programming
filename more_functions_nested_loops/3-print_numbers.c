@@ -2,14 +2,16 @@
 #include <stdio.h>
 
 /**
- * mul - multiplies two integers
- * @a: The number to be multiplies
- * @b: The number to be multiplies
- *
- * Return: The result of multiplication
+ * print_numbers - Prints the numbers from 0 to 9, followed by a new line
  */
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	int c = '0';
+
+	for (c = 0; c <= 9; c++)
+	{
+	_putchar(c + '0');
+	}
+	_putchar('\n')
 }
 
