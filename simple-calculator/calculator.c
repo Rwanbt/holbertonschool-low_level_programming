@@ -16,43 +16,51 @@ int main(void)
     
         if (enter == 0)
         {
-            printf("Bye !\n");
+            printf("Bye !\n\n");
         }
         else if (enter > 0 && enter < 5)
         {
             if (enter == 1)
             {
+                printf("A: ");
                 scanf("%d", &a);
+                printf("B: ");
                 scanf("%d", &b);
-                printf("result: %d\n", a + b);
+                printf("Result: %d\n\n", a + b);
             }
             if (enter == 2)
             {
+                printf("A: ");
                 scanf("%d", &a);
+                printf("B: ");
                 scanf("%d", &b);
-                printf("result: %d\n", a - b);
+                printf("Result: %d\n\n", a - b);
             }
             if (enter == 3)
             {
+                printf("A: ");
                 scanf("%d", &a);
+                printf("B: ");
                 scanf("%d", &b);
-                printf("result: %d\n", a * b);
+                printf("Result: %d\n\n", a * b);
             }
             if (enter == 4)
             {
+                printf("A: ");
                 scanf("%d", &a);
+                printf("B: ");
                 scanf("%d", &b);
                 if (b == 0)
                 {
-                    printf("Invalid division, try again.\n");
+                    printf("Invalid division, try again.\n\n");
                 }
                 else
-                printf("result: %d\n", a / b);
+                printf("Result: %d\n\n", a / b);
             }
         }
         else
         {
-            printf("Invalid choice, try again.\n");
+            printf("Invalid choice, try again.\n\n");
         }
     }
     while (enter != 0);
