@@ -5,29 +5,35 @@
  */
 int main(void)
 {
-    int e;
+    int enter, a, b;
 
     do 
     {
         printf("Simple Calculator\n");
-        printf("1) Add\n 2) Subtract\n 3) Multiply\n 4) Divide\n 0) Quit\n");
+        printf("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit\n");
         printf("Choice: ");
-        scanf("%d", &e);
+        scanf("%d", &enter);
     
-        if (e == 0)
+        if (enter == 0)
         {
             printf("Bye !\n");
         }
-        else if (e > 0 && e < 5)
+        else if (enter > 0 && enter < 5)
         {
-            printf("Opérations: %d\n", e);
+            printf("Opérations: %d\n", enter);
+            if (enter == 1)
+            {
+                scanf("%d", &a);
+                scanf("%d", &b);
+                printf("result: %d\n", a + b);
+            }
         }
         else
         {
             printf("Invalid choice, try again. \n");
         }
     }
-    while (e != 0);
+    while (enter != 0);
 
     return (0);
 }
