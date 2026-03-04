@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the values of two integers
+ * _strlen - returns the length of a string
+ * @s: the string to check
  *
- * Return: void
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
