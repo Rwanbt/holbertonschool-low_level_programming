@@ -4,7 +4,7 @@
  * reset_to_98 - updates the value of the integer it points to to 98
  * @n: a pointer to an integer
  *
- * Return: void
+ * Return: 0
  */
 void reset_to_98(int *n)
 {
