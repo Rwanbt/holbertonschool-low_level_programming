@@ -2,9 +2,9 @@
 
 /**
  * print_chessboard - prints the chessboard
- * @a: pointer to an array of 8 characters (the board)
+ * @a: array of 8 characters
  *
- * Return: nothing
+ * Return: void
  */
 void print_chessboard(char (*a)[8])
 {
