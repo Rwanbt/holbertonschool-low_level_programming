@@ -14,7 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int total_size, i;
 
 	if (nmemb == 0 || size == 0)
-		return (NULL)
+		return (NULL);
 
 	total_size = nmemb * size;
 
@@ -28,5 +28,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		ptr[i] = 0;
 	}
 
-	return (ptr);
+	return ((void *)ptr);
 }
