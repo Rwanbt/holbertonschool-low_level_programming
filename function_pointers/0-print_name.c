@@ -1,13 +1,12 @@
-#include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include "function_pointers.h"
+#include <stddef.h>
 
 /**
  * print_name - prints a name
- * @name: name of display
- * @f: pointer of function of format display
+ * @name: name of the person
+ * @f: pointer to the printing function
  *
- * Return: void
+ * Return: Nothing.
  */
 void print_name(char *name, void (*f)(char *))
 {
