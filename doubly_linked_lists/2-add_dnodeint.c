@@ -4,7 +4,7 @@
 /**
  * add_dnodeint - adds node
  * @head: double pointer of the head of the list
- * @h: integer to be added
+ * @n: integer to be added
  *
  * Return: the address of the new element, or NULL if it failed
  */
