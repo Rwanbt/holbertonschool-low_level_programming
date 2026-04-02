@@ -3,8 +3,8 @@
 
 /**
  * key_index - Give the index of a key
- * @hey:
- * @size:
+ * @hey: The key of hash table
+ * @size: The size of table
  *
  * Return: index at which the key/value pair should be stored in the array of the hash table
  */
